@@ -1,9 +1,10 @@
 {
   "name": "youtube",
   "version": "1.0.0",
-  "description": "quick youtube like video player in react, using youtube api",
-  "main": "index.js",
+  "description": "quick youtube-like video player in react, using youtube api",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
