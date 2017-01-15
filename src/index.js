@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './components/app';
-
-// const createStoreWithMiddleware = applyMiddleware()(createStore);
+const App = function() {
+  return <div>Hi!</div>
+}
 
 ReactDOM.render(
     <App />
